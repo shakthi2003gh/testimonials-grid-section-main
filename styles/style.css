@@ -1,0 +1,46 @@
+@import url(/styles/normalize.css);
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: grid;
+  place-content: center;
+}
+
+/* color palette */
+:root {
+  /* block colors */
+  --color-Moderate-violet: hsl(263, 55%, 52%);
+  --color-Very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --color-Very-dark-blackish-blue: hsl(219, 29%, 14%);
+  --color-White: hsl(0, 0%, 100%);
+
+  /* other colors */
+  --color-Light-gray: hsl(0, 0%, 81%);
+  --color-Light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+/* typography */
+body {
+  font-size: 1.3rem;
+  color: var(--color-Light-grayish-blue);
+  background-color: black;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+p {
+  opacity: 70%;
+}
+
+.profile > span {
+  color: var(--color-Light-gray);
+  opacity: 50%;
+}
